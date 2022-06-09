@@ -14,7 +14,7 @@ function Navbar() {
             <Link to="/home" className='item-logo'>
                <img src={logo} alt="Logo" className="logo-img"></img></Link>
             <input type="checkbox" id="check"></input>
-            <label for="check" class="checkbtn">
+            <label htmlFor="check" className="checkbtn">
                <i className="fa-solid fa-barcode"></i>
             </label>
             <ul>
