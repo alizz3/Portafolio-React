@@ -69,7 +69,8 @@ button,
   min-width: 288px;
   justify-content: space-between;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 25px;  
+  height: max-content;
 }
 
 .container-Home-img {
@@ -82,7 +83,7 @@ button,
   width: 80%;
   max-width: 480px;
   margin: 20px;
-  
+
 }
 
 .container-home-text {
@@ -155,7 +156,7 @@ button,
 
 
 @media screen and (min-width:768px) {
-  .container-Home{
+  .container-Home {
     justify-content: center;
   }
 
@@ -179,11 +180,13 @@ button,
     width: 90%;
     margin: 0 auto;
   }
-  .container-Home div section h1{
+
+  .container-Home div section h1 {
     font-size: 50px;
   }
-  .div-section-home{
-    padding:50px;
+
+  .div-section-home {
+    padding: 50px;
   }
 }
 
