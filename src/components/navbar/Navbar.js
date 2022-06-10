@@ -30,9 +30,9 @@ function Navbar() {
                   <Link to="/skills" className='item'>Skills</Link>
                </li>
 
-               <li>
+               {/* <li>
                   <Link to="/jobs" className='item'>Jobs</Link>
-               </li>
+               </li> */}
 
                <li>
                   <Link to="/studies" className='item'>Studies</Link>

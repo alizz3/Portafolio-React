@@ -17,7 +17,7 @@ footer h1{
     color:#520968;
     display: flex;
     margin-left: 10%;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     font-size: 100%;
 }
